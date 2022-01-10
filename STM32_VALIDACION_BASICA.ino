@@ -92,7 +92,7 @@ void loop() {
 }
 
 void RECEPTOR_RC() {
-
+  // Más información en https://arduproject.es/ppm-radiocontrol-arduino-stm32/
   // El receptor es de 8 canales (aunque el mando solo tenga 6), y recibimos 8*2+2 (18 flancos).
   // Solo ejecutamos esta parte si hemos recibido todo el 'burst', los 18 flancos con la informacion
   // de todos los canales.
